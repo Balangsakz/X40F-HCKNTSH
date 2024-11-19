@@ -13,3 +13,5 @@
 ## Status
 Boot to installer
 trackpad kext not included so not work
+
+https://www.reddit.com/r/hackintosh/comments/1gr2dbl/can_anyone_help_with_tecra_x40f_laptop/
