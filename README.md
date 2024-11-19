@@ -11,4 +11,5 @@
     - [WhateverGreen-1.6.9-DEBUG](https://github.com/dortania/build-repo/releases/download/WhateverGreen-9818f96/WhateverGreen-1.6.9-DEBUG.zip)
    
 ## Status
-Cannot Boot Image
+Boot to installer
+trackpad kext not included so not work
