@@ -303,6 +303,8 @@
                     <data>mz4AAA==</data>
                     <key>device_type</key>
                     <string>Video Compatible Controller</string>
+                    <key>enable-backlight-registers-alternative-fix</key>
+                    <data>AQAAAA==</data>
                     <key>framebuffer-fbmem</key>
                     <data>AACQAA==</data>
                     <key>framebuffer-patch-enable</key>
@@ -1293,7 +1295,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v debug=0x100 keepsyms=1 alcid=11 -igfxnotelemetryload</string>
+                    <string>-v debug=0x100 keepsyms=1 alcid=11 -igfxblr -igfxblt -igfxbls -brkeysdbg</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>

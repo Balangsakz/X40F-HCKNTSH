@@ -303,6 +303,8 @@
                     <data>mz4AAA==</data>
                     <key>device_type</key>
                     <string>Video Compatible Controller</string>
+                    <key>enable-backlight-registers-alternative-fix</key>
+                    <data>AQAAAA==</data>
                     <key>framebuffer-fbmem</key>
                     <data>AACQAA==</data>
                     <key>framebuffer-patch-enable</key>
@@ -506,6 +508,24 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>BrightnessKeys.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.3</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BrightnessKeys</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
                     <key>Comment</key>
                     <string>V1.1</string>
@@ -618,7 +638,7 @@
                     <key>Comment</key>
                     <string>V2.3.0 | AirportItlwm.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
@@ -1293,7 +1313,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v debug=0x100 keepsyms=1 alcid=11 -igfxnotelemetryload</string>
+                    <string>-v debug=0x100 keepsyms=1 alcid=11 -igfxblr -igfxblt -igfxbls -brkeysdbg</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
