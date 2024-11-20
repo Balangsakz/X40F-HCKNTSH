@@ -18,9 +18,9 @@
 🟢 Success installing with minimal kext 
 > when install proccess enable `AirportItlwm_v2.3.0_stable_Sonoma14.4.kext.zip`, but when booting first after install please disable, or will kernel panic.
 
-🟡Audio work using boot arg for now
+🟡 Audio work using boot arg for now
 
-🟡Display still 7mb or not accelerated
+🟢 GPU
 
 > still need use `-igfxvesa` for correctly boot
 
@@ -34,9 +34,15 @@
 
 🔴 Bluetooth
 
-🔴 Wifi
+🟡 Wifi
+
+> enable `AirportItlwm_v2.3.0_stable_Sonoma14.4.kext`, using `itlwm_v2.3.0_stable.kext` when installed and application [HeliPort](https://github.com/OpenIntelWireless/HeliPort)
 
 🔴 Battery
+
+🔴 Touchscreen
+
+🔴 Another input like click left and right extra, and dot pointer
 
 🔵 ETC...
 
