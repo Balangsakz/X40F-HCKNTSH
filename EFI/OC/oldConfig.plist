@@ -295,10 +295,24 @@
             <dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
+                    <key>AAPL,GfxYTile</key>
+                    <data>AQAAAA==</data>
                     <key>AAPL,ig-platform-id</key>
                     <data>AACbPg==</data>
                     <key>device-id</key>
                     <data>mz4AAA==</data>
+                    <key>device_type</key>
+                    <string>Video Compatible Controller</string>
+                    <key>framebuffer-fbmem</key>
+                    <data>AACQAA==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AAAwAQ==</data>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
+                    <key>model</key>
+                    <string>Intel UHD Graphics 620</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -1261,7 +1275,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v debug=0x100 keepsyms=1 alcid=11 -igfxvesa</string>
+                    <string>-v debug=0x100 keepsyms=1 alcid=11 -igfxnotelemetryload</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1332,7 +1346,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>FVF947802J90000UE</string>
+                <string>C02017108GUJH4RAD</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1344,11 +1358,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro15,4</string>
+                <string>MacBookPro15,2</string>
                 <key>SystemSerialNumber</key>
-                <string>FVFZQLY2L40Y</string>
+                <string>C02CM0E6JHCC</string>
                 <key>SystemUUID</key>
-                <string>79D51713-92F8-43A5-B501-C0989C6C5691</string>
+                <string>83E81711-4CF0-4CDE-85BD-F8090F38ACDF</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
