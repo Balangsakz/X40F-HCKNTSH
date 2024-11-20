@@ -618,9 +618,27 @@
                     <key>Comment</key>
                     <string>V2.3.0 | AirportItlwm.kext</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AirportItlwm</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>itlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/itlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1346,7 +1364,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02017108GUJH4RAD</string>
+                <string>FVF914802CD0000FB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1358,11 +1376,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro15,2</string>
+                <string>MacBookPro15,4</string>
                 <key>SystemSerialNumber</key>
-                <string>C02CM0E6JHCC</string>
+                <string>FVFYJDZML40Y</string>
                 <key>SystemUUID</key>
-                <string>83E81711-4CF0-4CDE-85BD-F8090F38ACDF</string>
+                <string>2421D4DF-1A91-4A52-A877-7866B747BCC9</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
