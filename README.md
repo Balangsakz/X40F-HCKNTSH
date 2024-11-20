@@ -11,7 +11,43 @@
     - [WhateverGreen-1.6.9-DEBUG](https://github.com/dortania/build-repo/releases/download/WhateverGreen-9818f96/WhateverGreen-1.6.9-DEBUG.zip)
    
 ## Status
-Boot to installer
-trackpad kext not included so not work
+🟢 Boot to installer
 
-https://www.reddit.com/r/hackintosh/comments/1gr2dbl/can_anyone_help_with_tecra_x40f_laptop/
+🟢 ~~trackpad kext not included so not work~~ 
+
+🟢 Success installing with minimal kext 
+> when install proccess enable `AirportItlwm_v2.3.0_stable_Sonoma14.4.kext.zip`, but when booting first after install please disable, or will kernel panic.
+
+🟡Audio work using boot arg for now
+
+🟡Display still 7mb or not accelerated
+
+> still need use `-igfxvesa` for correctly boot
+
+🔴 Webcam
+
+🔴 Shutdown
+
+> shutdown error, related to `appleSMC`
+
+🔴 Brightnes keyboard
+
+🔴 Bluetooth
+
+🔴 Wifi
+
+🔴 Battery
+
+🔵 ETC...
+
+## Next
+- Try to fix 
+  - shutdown issue
+  - accelerated graphic
+  - Wifi
+  - Bluetooth
+
+## Thanks
+[Acidanthera](https://github.com/acidanthera "Acidanthera")
+
+[Help form reddit members](https://www.reddit.com/r/hackintosh/comments/1gr2dbl/can_anyone_help_with_tecra_x40f_laptop/ "Help form reddit members")
