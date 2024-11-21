@@ -11,11 +11,7 @@
     - [WhateverGreen-1.6.9-DEBUG](https://github.com/dortania/build-repo/releases/download/WhateverGreen-9818f96/WhateverGreen-1.6.9-DEBUG.zip)
    
 ## Status
-🟢 Boot to installer
-
-🟢 ~~trackpad kext not included so not work~~ 
-
-🟢 Installing
+🟢 Success install
 > ~~when install proccess enable `AirportItlwm_v2.3.0_stable_Sonoma14.4.kext.zip`, but when booting first after install please disable, or will kernel panic.~~
 <strong>Please set SecureBootModel Disabled when installing process.</strong>
 
