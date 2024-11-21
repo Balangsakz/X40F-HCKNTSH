@@ -53,8 +53,9 @@
 - Try to fix 
   - ~~shutdown issue~~
   - accelerated graphic
-  - Wifi
+  - ~~Wifi~~
   - Bluetooth
+  - Sleep
 
 ## Thanks
 [Acidanthera](https://github.com/acidanthera "Acidanthera")
