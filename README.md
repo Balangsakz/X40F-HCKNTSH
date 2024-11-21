@@ -17,7 +17,7 @@
 > ~~when install proccess enable `AirportItlwm_v2.3.0_stable_Sonoma14.4.kext.zip`, but when booting first after install please disable, or will kernel panic.~~
 <strong>Please set SecureBootModel Disabled when installing process.</strong>
 
-🟡 Audio work using boot arg for now
+🟢 Audio ~~Audio work using boot arg for now~~
 
 🟢 GPU
 
