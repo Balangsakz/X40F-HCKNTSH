@@ -18,7 +18,7 @@
                     <key>Comment</key>
                     <string>SSDT-EC-USBX-LAPTOP.aml</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-EC-USBX-LAPTOP.aml</string>
                 </dict>
@@ -53,6 +53,14 @@
                     <true/>
                     <key>Path</key>
                     <string>SSDT-XOSI.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>SSDT-USBX.aml</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USBX.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -652,13 +660,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>SMCBatteryManager.kext</string>
+                    <string>SMCProcessor.kext</string>
                     <key>Comment</key>
                     <string>V1.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/SMCBatteryManager</string>
+                    <string>Contents/MacOS/SMCProcessor</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -670,13 +678,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>SMCProcessor.kext</string>
+                    <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
                     <string>V1.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/SMCProcessor</string>
+                    <string>Contents/MacOS/SMCBatteryManager</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>

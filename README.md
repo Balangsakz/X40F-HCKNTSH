@@ -40,7 +40,7 @@
 
 🔴 Battery
 
-🔴 Touchscreen
+🟢 Touchscreen
 
 🔴 Another input like click left and right extra, and dot pointer
 
