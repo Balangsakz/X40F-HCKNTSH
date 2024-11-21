@@ -51,7 +51,7 @@
 
 ## Next
 - Try to fix 
-  - shutdown issue
+  - ~~shutdown issue~~
   - accelerated graphic
   - Wifi
   - Bluetooth
