@@ -33,7 +33,7 @@
 			<key>IOPropertyMatch</key>
 			<dict>
 				<key>pcidebug</key>
-				<string>56:0:0</string>
+				<string>129:0:0</string>
 			</dict>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
@@ -41,17 +41,52 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				AwAAAA==
+				BAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
+					<key>HS01</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-Unknown</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
+					<key>HS02</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-Unknown</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>USBC-Thunder-Top-Right</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
+						</data>
+					</dict>
+					<key>SS02</key>
+					<dict>
+						<key>#comment</key>
+						<string>USBC-Thunder-Bottom-Right</string>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>port</key>
+						<data>
+						BAAAAA==
 						</data>
 					</dict>
 				</dict>
@@ -82,6 +117,8 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>USBA-2-Left</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -91,6 +128,41 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-Unknown</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
+					<key>HS03</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-Unknown</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						AwAAAA==
+						</data>
+					</dict>
+					<key>HS04</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-Unknown</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						BAAAAA==
+						</data>
+					</dict>
+					<key>HS05</key>
+					<dict>
+						<key>#comment</key>
+						<string>USBC-Thunder-TOP-Right</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
@@ -98,8 +170,21 @@
 						BQAAAA==
 						</data>
 					</dict>
-					<key>HS03</key>
+					<key>HS06</key>
 					<dict>
+						<key>#comment</key>
+						<string>USBC-Thunder-Bottom-Right</string>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
+					<key>HS07</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-2.0-Webcamera</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -107,8 +192,21 @@
 						BwAAAA==
 						</data>
 					</dict>
-					<key>HS04</key>
+					<key>HS08</key>
 					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-Unknown</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						CAAAAA==
+						</data>
+					</dict>
+					<key>HS09</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-1.1-Touchscreen</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -116,8 +214,43 @@
 						CQAAAA==
 						</data>
 					</dict>
+					<key>HS10</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-2.0-Bluetooth</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						CgAAAA==
+						</data>
+					</dict>
+					<key>HS11</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-Unknown</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						CwAAAA==
+						</data>
+					</dict>
+					<key>HS12</key>
+					<dict>
+						<key>#comment</key>
+						<string>INTERNAL-2-Unknown</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						DAAAAA==
+						</data>
+					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>USBA-3-Left</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
