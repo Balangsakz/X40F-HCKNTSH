@@ -1,3 +1,5 @@
+Move To [https://github.com/Balangsakz/x40-F-PMR33U-HACKINTOSH-OPENCORE](https://github.com/Balangsakz/x40-F-PMR33U-HACKINTOSH-OPENCORE "NEW REPO")
+
 # WIP
 - Target : Sonoma
 - Opencore Debug : 1.0.2
