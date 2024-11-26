@@ -1,4 +1,4 @@
-Move To [https://github.com/Balangsakz/x40-F-PMR33U-HACKINTOSH-OPENCORE](https://github.com/Balangsakz/x40-F-PMR33U-HACKINTOSH-OPENCORE "NEW REPO")
+Move To [https://github.com/Balangsakz/Dynabook-x40-F-PMR33U-HACKINTOSH-OPENCORE](https://github.com/Balangsakz/Dynabook-x40-F-PMR33U-HACKINTOSH-OPENCORE "NEW REPO")
 
 # WIP
 - Target : Sonoma
